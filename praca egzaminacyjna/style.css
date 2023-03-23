@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: Arial, sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  main {
+	flex: 1;
+  }
+  
+  header {
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 20px;
+  }
+  
+  header h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-shadow: 1.5px 1.5px gray;
+  }
+  
+  nav ul {
+	list-style: none;
+  }
+  
+  nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+	margin-right: 0;
+  }
+  
+  nav ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
+  }
+  
+  nav ul li a:hover {
+	border-bottom: 2px solid #FFFFFF;
+  }
+  
+  main {
+	padding: 20px;
+	background-image: url(Pluton.jpg);
+  }
+  
+  main h2 {
+	font-size: 28px;
+	margin-bottom: 10px;
+  }
+  
+  main p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	color: white;
+  }
+  
+  main img {
+	display: block;
+	margin: 0 auto;
+  }
+  
+  main p:last-child {
+	font-style: italic;
+  }
+  
+  footer {
+	background-color: #CCCCCC;
+	color: #000000;
+	padding: 10px;
+	font-size: 14px;
+	text-align: center;
+  }
+  
+  fieldset {
+	border-radius: 80px;
+	float: left;
+  }
